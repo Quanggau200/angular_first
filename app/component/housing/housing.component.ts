@@ -23,4 +23,9 @@ import { RouterModule } from '@angular/router';
 })
 export class HousingComponent {
   @Input() housingLocation!: Housinglocation;
+  
+  onclick()
+  {
+    console.log('test')
+  }
 }
